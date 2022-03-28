@@ -16,4 +16,5 @@ Overall this was an ok assignment. Nice to see everything coming together but de
 https://yomiodusi.github.io/schedule-feat-yomi/
 
 
-
+## Visual
+![](assets/images/Capture.jpg)
