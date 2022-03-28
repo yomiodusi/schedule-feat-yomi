@@ -11,7 +11,7 @@ $(document).ready(function () {
         localStorage.setItem(time, activity);
     })
 
-
+// code for color coding time block based on current time
     function getHours() {
         
         var timeNow = moment().hours();
@@ -21,25 +21,26 @@ $(document).ready(function () {
 
             // To check the time and add the classes for background indicators
             if (chosenTime < timeNow) {
-                $(this).removeClass("future");
-                $(this).removeClass("present");
                 $(this).addClass("past");
             }
             else if (chosenTime === timeNow) {
                 $(this).removeClass("past");
-                $(this).removeClass("future");
                 $(this).addClass("present");
             }
             else {
-                $(this).removeClass("present");
                 $(this).removeClass("past");
+                $(this).removeClass("present");
                 $(this).addClass("future");
-
             }
         })
 
     }
-
     getHours();
+
 })
 
+
+// code to make descriptions stay when user refreshes site
+for(var i=8; i < 16; i++) {
+    localStorage.getItem(hour, activity);
+    }
