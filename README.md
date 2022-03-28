@@ -17,4 +17,4 @@ https://yomiodusi.github.io/schedule-feat-yomi/
 
 
 ## Visual
-![](images/Capture.jpg)
+![](assets/images/capture.JPG)
